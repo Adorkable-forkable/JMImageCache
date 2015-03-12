@@ -16,6 +16,7 @@
 		30BD1D5015BE205700792C47 /* UIImageView+JMImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BD1D4F15BE205700792C47 /* UIImageView+JMImageCache.m */; };
 		30BD1D5415BE2BF000792C47 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 30BD1D5215BE2BF000792C47 /* placeholder.png */; };
 		30BD1D5515BE2BF000792C47 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30BD1D5315BE2BF000792C47 /* placeholder@2x.png */; };
+		3CB20AA11AB10CE300F80559 /* UIButton+JMImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB20AA01AB10CE300F80559 /* UIButton+JMImageCache.m */; };
 		B2C2B02A131072D100BCA7EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C2B020131072D100BCA7EB /* AppDelegate.m */; };
 		B2C2B02B131072D100BCA7EB /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C2B022131072D100BCA7EB /* DemoViewController.m */; };
 		B2C2B02D131072D100BCA7EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C2B027131072D100BCA7EB /* main.m */; };
@@ -34,6 +35,8 @@
 		30BD1D4F15BE205700792C47 /* UIImageView+JMImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+JMImageCache.m"; path = "../UIImageView+JMImageCache.m"; sourceTree = "<group>"; };
 		30BD1D5215BE2BF000792C47 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		30BD1D5315BE2BF000792C47 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
+		3CB20A9F1AB10CE300F80559 /* UIButton+JMImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+JMImageCache.h"; path = "../UIButton+JMImageCache.h"; sourceTree = "<group>"; };
+		3CB20AA01AB10CE300F80559 /* UIButton+JMImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+JMImageCache.m"; path = "../UIButton+JMImageCache.m"; sourceTree = "<group>"; };
 		B2C2B01F131072D100BCA7EB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2C2B020131072D100BCA7EB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B2C2B021131072D100BCA7EB /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				B2C2B032131072E200BCA7EB /* JMImageCache.m */,
 				30BD1D4E15BE205700792C47 /* UIImageView+JMImageCache.h */,
 				30BD1D4F15BE205700792C47 /* UIImageView+JMImageCache.m */,
+				3CB20A9F1AB10CE300F80559 /* UIButton+JMImageCache.h */,
+				3CB20AA01AB10CE300F80559 /* UIButton+JMImageCache.m */,
 			);
 			name = JMImageCache;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C2B02A131072D100BCA7EB /* AppDelegate.m in Sources */,
+				3CB20AA11AB10CE300F80559 /* UIButton+JMImageCache.m in Sources */,
 				B2C2B02B131072D100BCA7EB /* DemoViewController.m in Sources */,
 				B2C2B02D131072D100BCA7EB /* main.m in Sources */,
 				B2C2B033131072E200BCA7EB /* JMImageCache.m in Sources */,

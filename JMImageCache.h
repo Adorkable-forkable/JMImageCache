@@ -7,6 +7,7 @@
 //
 
 #import "UIImageView+JMImageCache.h"
+#import "UIButton+JMImageCache.h"
 
 @class JMImageCache;
 
